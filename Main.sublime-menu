@@ -1,0 +1,31 @@
+[
+    {
+        "caption": "Edit",
+        "mnemonic": "E",
+        "id": "edit",
+        "children":
+        [
+            {
+                "id": "Extract",
+                "caption": "Extract Text",
+                "mnemonic": "e",
+                "command": "",
+                "children":
+                [
+                    {
+                        "caption": "Extract Text",
+                        "mnemonic": "e",
+                        "command": "text_extractor",
+                        "args": {"commandtype":"new"}
+                    },
+                    {
+                        "caption": "Reset Filename",
+                        "mnemonic": "r",
+                        "command": "text_extractor",
+                        "args": {"commandtype":"reset"}
+                    }
+                ]                
+            }
+        ]
+    }
+]

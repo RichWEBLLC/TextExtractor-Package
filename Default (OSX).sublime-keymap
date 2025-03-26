@@ -1,0 +1,12 @@
+[
+    { 
+        "keys": ["ctrl+m"],
+        "args": {"commandtype":"new"},
+        "command": "text_extractor"
+    },
+    { 
+        "keys": ["ctrl+option+m"],
+        "args": {"commandtype":"reset"},
+        "command": "text_extractor"
+    },
+]
